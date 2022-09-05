@@ -1,0 +1,78 @@
+.button1 
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(4, 74, 187);
+    height: 35px;
+    width: 300px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    position:fixed;
+    right: 150px;
+    top: 250px;
+}
+
+.button1:hover
+{
+    background-color: rgb(40, 104, 187);
+}
+
+.button1:active
+{
+    top: 252px;
+}
+
+.button2
+{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    height: 35px;
+    width: 300px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    text-align:center;
+    border: 2px solid gray;
+    position: fixed;
+    right: 150px;
+    top: 350px;
+}
+
+.button2:hover
+{
+    background-color: lightgray;
+}
+
+.button2:active
+{
+    top: 352px;
+}
+
+.button3
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(46, 172, 56);
+    height: 35px;
+    width: 300px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    text-align:center;
+    border: none;
+    position: fixed;
+    right: 150px;
+    top: 500px;
+}
+
+.button3:hover
+{
+    background-color:  rgb(103, 185, 110);
+}
+
+.button3:active
+{
+    top: 502px;
+}
