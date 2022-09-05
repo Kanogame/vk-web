@@ -13,6 +13,7 @@
     position:fixed;
     right: 150px;
     top: 250px;
+    font-size: 14px;
 }
 
 .button1:hover
@@ -39,6 +40,7 @@
     position: fixed;
     right: 150px;
     top: 350px;
+    font-size: 14px;
 }
 
 .button2:hover
@@ -65,6 +67,7 @@
     position: fixed;
     right: 150px;
     top: 500px;
+    font-size: 14px;
 }
 
 .button3:hover
@@ -75,4 +78,32 @@
 .button3:active
 {
     top: 502px;
+}
+
+.phone
+{
+    position: fixed;
+    left: 200px;
+    top: 100px;
+    content:url(and.png);
+    transition: transform .3s;
+}
+
+.phone:hover
+{
+    transform: scale(1.25);
+}
+
+.phone2
+{
+    position: fixed;
+    left: 425px;
+    top: 100px;
+    content:url(iph.png);
+    transition: transform .3s;
+}
+
+.phone2:hover
+{
+    transform: scale(1.25);
 }
