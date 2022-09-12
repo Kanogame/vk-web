@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VK - Login</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2, style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Vk - login test</h2>
-    <div>
-        <button1 class="button1">Bойти</button1>
+    <div class="auth-block">
+        <img src="logo.svg" class="logo">
+        <p class="name">Вход ВКонтакте</p>
+        <div class="form"><input type="text" class="input" placeholder="Телефон или почта">
+            <div class="checkbox-text">
+                <input type="checkbox" class="check">
+                Чужой компьютер
+            </div>
+            <div class="buttons">
+                <button class="login-button">Войти</button>
+                <p class="auth-text">или</p>
+                <button class="qr-button">QR-код</button>
+            </div>
+        </div>
     </div>
-    <div>
-        <button2 class="button2">QR-код</button2>
+    <div class="page-block">
+        <button class="signup-button">Зарегистрироваться</button>
+        <p class="auth-text">После регистрации вы получите доступ <br>ко всем возможностям VK ID</p>
+        <p class="auth-text">Узнать больше</p>
     </div>
-    <div >
-        <button3 class="button3">Зарегистрироваться</button3>
-    </div>
-    <div class="phone"></div>
-    <div class="phone2"></div>
 </body>
 </html>

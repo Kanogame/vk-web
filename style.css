@@ -1,109 +1,119 @@
-.button1 
+html {
+    font-family: roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before
 {
-    cursor: pointer;
-    color: white;
-    background-color: rgb(4, 74, 187);
-    height: 35px;
-    width: 300px;
-    border-radius: 8px;
-    font-family: 'Roboto';
+    box-sizing: inherit;
+}
+
+.auth-block
+{
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 320px;
+    margin: 20px auto 0;
+    padding: 32px 24px;
+}
+
+.page-block
+{
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 320px;
+    margin: 20px auto 0;
+    padding: 24px 24px;
+}
+
+.name
+{
     text-align: center;
-    vertical-align: middle;
-    border: none;
-    position:fixed;
-    right: 150px;
-    top: 250px;
-    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
 }
 
-.button1:hover
+.auth-text
 {
-    background-color: rgb(40, 104, 187);
+    color: rgb(161, 161, 161);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
 }
 
-.button1:active
+.checkbox-text
 {
-    top: 252px;
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+    font-weight: 400;
 }
 
-.button2
+.logo
 {
-    cursor: pointer;
-    color: black;
-    background-color: white;
-    height: 35px;
-    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input
+{
+    display: block;
     border-radius: 8px;
     font-family: 'Roboto';
-    text-align:center;
-    border: 2px solid gray;
-    position: fixed;
-    right: 150px;
-    top: 350px;
-    font-size: 14px;
+    border: 1px;
+    height: 36px;
+    width: 100%;
+    border-color: lightgray;
+    border-style: solid;
+    margin-bottom: 10px;
+    background-color: #edeef0;
+    padding: 0 12px;
+    outline: none;
 }
 
-.button2:hover
-{
-    background-color: lightgray;
-}
-
-.button2:active
-{
-    top: 352px;
-}
-
-.button3
+button
 {
     cursor: pointer;
+    height: 36px;
+    font-family: 'Roboto';
+    border-radius: 8px;
+    text-align:center;
+    font-size: 14px;
+    display: block;
+}
+
+.signup-button
+{
     color: white;
     background-color: rgb(46, 172, 56);
-    height: 35px;
-    width: 300px;
-    border-radius: 8px;
-    font-family: 'Roboto';
-    text-align:center;
+    width: 100%;
     border: none;
-    position: fixed;
-    right: 150px;
-    top: 500px;
-    font-size: 14px;
 }
 
-.button3:hover
+.login-button
 {
-    background-color:  rgb(103, 185, 110);
+    color: white;
+    background-color: rgb(0, 119, 255);
+    width: 100%;
+    border: none;
+    margin-top: 20px;
 }
 
-.button3:active
+.qr-button
 {
-    top: 502px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    border: 1px;
+    border-color: lightgray;
+    border-style: solid;
 }
 
-.phone
+body
 {
-    position: fixed;
-    left: 200px;
-    top: 100px;
-    content:url(and.png);
-    transition: transform .3s;
-}
-
-.phone:hover
-{
-    transform: scale(1.25);
-}
-
-.phone2
-{
-    position: fixed;
-    left: 425px;
-    top: 100px;
-    content:url(iph.png);
-    transition: transform .3s;
-}
-
-.phone2:hover
-{
-    transform: scale(1.25);
+    margin: 0;
+    background-color: #edeef0;
 }
