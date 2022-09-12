@@ -8,6 +8,24 @@ html {
     box-sizing: inherit;
 }
 
+body
+{
+    margin: 0;
+    background-color: #edeef0;
+}
+
+button
+{
+    cursor: pointer;
+    height: 36px;
+    font-family: 'Roboto';
+    border-radius: 8px;
+    text-align:center;
+    font-size: 14px;
+    display: block;
+    font-family: inherit;
+}
+
 .auth-block
 {
     background-color: #fff;
@@ -40,6 +58,8 @@ html {
 {
     color: rgb(161, 161, 161);
     text-align: center;
+    display: block;
+    margin: 15px auto;
     font-size: 13px;
     font-weight: 400;
 }
@@ -49,6 +69,13 @@ html {
     color: rgb(161, 161, 161);
     font-size: 13px;
     font-weight: 400;
+}
+
+.alien-computer
+{
+    display: block;
+    margin-top: 12px;
+    cursor: pointer;
 }
 
 .logo
@@ -72,17 +99,27 @@ html {
     background-color: #edeef0;
     padding: 0 12px;
     outline: none;
+    font-family: inherit;
+    font-size: 14px;
 }
 
-button
+.input:focus
 {
-    cursor: pointer;
-    height: 36px;
-    font-family: 'Roboto';
-    border-radius: 8px;
-    text-align:center;
-    font-size: 14px;
-    display: block;
+    border-color: rgb(81, 129, 184);
+}
+
+.login-button
+{
+    color: white;
+    background-color: rgb(0, 119, 255);
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+}
+
+.login-button:hover
+{
+    background-color: rgb(47, 144, 255);
 }
 
 .signup-button
@@ -93,13 +130,9 @@ button
     border: none;
 }
 
-.login-button
+.signup-button:hover
 {
-    color: white;
-    background-color: rgb(0, 119, 255);
-    width: 100%;
-    border: none;
-    margin-top: 20px;
+    background-color: rgb(68, 196, 79);
 }
 
 .qr-button
@@ -112,8 +145,7 @@ button
     border-style: solid;
 }
 
-body
+.qr-button:hover
 {
-    margin: 0;
-    background-color: #edeef0;
+    background-color: #f7f7f7;
 }
