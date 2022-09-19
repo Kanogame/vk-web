@@ -28,13 +28,20 @@ button
 
 .header
 {
-    display: flex;
-    height: 50px;
-    width: 100%;
-    align-items: center;
-    gap: 20px;
+    height: 48px;
     background-color: white;
     border-bottom: 1px solid lightgray;
+}
+
+.header-content
+{
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .auth-block
@@ -75,6 +82,23 @@ button
     font-weight: 400;
 }
 
+.header-text
+{
+    color: black;
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 600;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+.header-text:hover
+{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
 .checkbox-text
 {
     color: rgb(161, 161, 161);
@@ -98,7 +122,6 @@ button
 
 .text-logo
 {
-    margin-left: 15%; 
     width:  140px;
     height: 25px;
 }
@@ -116,6 +139,10 @@ button
     outline: none;
     font-family: inherit;
     font-size: 14px;
+    padding: 0 30px 0;
+    background-image: url(search.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
 }
 
 .input
@@ -176,6 +203,9 @@ button
     border: 1px;
     border-color: lightgray;
     border-style: solid;
+    background-image: url(qr-code.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
 }
 
 .qr-button:hover
