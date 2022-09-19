@@ -26,6 +26,17 @@ button
     font-family: inherit;
 }
 
+.header
+{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
 .auth-block
 {
     background-color: #fff;
@@ -83,6 +94,28 @@ button
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.text-logo
+{
+    margin-left: 15%; 
+    width:  140px;
+    height: 25px;
+}
+
+.search
+{
+    display: block;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    border: 1px;
+    height: 30px;
+    width:  240px;
+    background-color: #edeef0;
+    padding: 0 12px;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
 }
 
 .input
